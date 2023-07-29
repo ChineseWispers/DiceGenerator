@@ -1,0 +1,37 @@
+* {
+    background-color: #ACE1AF;
+}
+
+h1, h2, div {
+    text-align: center;
+    margin-top: 80px;
+}
+
+div.die {
+    font-size: 90px;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    line-height: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    align-content: space-between;
+    justify-content: space-around; 
+    margin: auto;
+    width: 50%;
+    border: none;
+}
+
+#dice-flex-container {
+    height: 300px;
+}
+
+#button-flex-container {
+    height: 50px;
+}
+
+

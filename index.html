@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dice.js"></script>
 </head>
 <body>
     <h1>Dice Generator</h1>
     <h2>Click on a die to simulate a roll:</h2>
+    <div class="flex-container" id="dice-flex-container">
+        <div id="first_die" class="die">
+            6
+        </div>
+        <div id="second_die" class="die">
+            10
+        </div>
+    </div>
+    <div class="flex-container" id="button-flex-container">
+        <button type="button" class="six-die">Roll a 6-sided dice</button>
+        <button type="button" class="ten-die">Roll a 10-sided dice</button>
+    </div>
 </body>
 </html>
