@@ -11,16 +11,16 @@
     <h1>Dice Generator</h1>
     <h2>Click on a die to simulate a roll:</h2>
     <div class="flex-container" id="dice-flex-container">
-        <div id="first_die" class="die">
+        <div id="first_die" class="die six">
             6
         </div>
-        <div id="second_die" class="die">
+        <div id="second_die" class="die ten">
             10
         </div>
     </div>
     <div class="flex-container" id="button-flex-container">
-        <button type="button" class="six-die">Roll a 6-sided dice</button>
-        <button type="button" class="ten-die">Roll a 10-sided dice</button>
+        <button type="button" class="six" id="six-button" onclick="RollDice(6, 'first_die')">Roll a 6-sided dice</button>
+        <button type="button" class="ten" id="ten-button" onclick="RollDice(10, 'second_die')">Roll a 10-sided dice</button>
     </div>
 </body>
 </html>
