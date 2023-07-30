@@ -9,18 +9,26 @@
 </head>
 <body>
     <h1>Dice Generator</h1>
-    <h2>Click on a die to simulate a roll:</h2>
-    <div class="flex-container" id="dice-flex-container">
-        <div id="first_die" class="die six">
+    <h2 class="main">Click on a die to simulate a roll:</h2>
+    <div class="flex-container main" id="dice-flex-container">
+        <div id="first_die" class="die six main">
             6
         </div>
-        <div id="second_die" class="die ten">
+        <div id="second_die" class="die ten main">
             10
         </div>
     </div>
     <div class="flex-container" id="button-flex-container">
-        <button type="button" class="six" id="six-button" onclick="RollDice(6, 'first_die')">Roll a 6-sided dice</button>
-        <button type="button" class="ten" id="ten-button" onclick="RollDice(10, 'second_die')">Roll a 10-sided dice</button>
+        <button type="button" class="six main" id="six-button" onclick="RollDice(6, 'first_die')">Roll a 6-sided dice</button>
+        <button type="button" class="ten main" id="ten-button" onclick="RollDice(10, 'second_die')">Roll a 10-sided dice</button>
     </div>
+    <footer>
+        <div class="flex-footer-container" id="footer-container">
+            <div id="footer-name">Dice generator</div>
+            <div id="copyright">Copyright @ 2023</div>
+            <div id="tandc">Terms and Conditions</div>
+            <div id="credits">Credits</div>
+        </div>
+    </footer>
 </body>
 </html>

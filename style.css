@@ -1,10 +1,31 @@
-* {
-    background-color: #ACE1AF;
+body {
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/id/1090601642/vector/board-games-pattern.jpg?s=612x612&w=0&k=20&c=bH87hKP7fPIW7onNSmyLIayTG1H2mvUs5NmLZFgUTqI=");
 }
 
-h1, h2, div {
+h1 {
+    display: block;
+    padding: 8px;
+    background-color: lightgreen;
+}
+
+.die, h2 {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    background-color: white;
+    padding: 50px;
+    opacity: 0.8;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
 }
 
 div.die {
@@ -13,6 +34,8 @@ div.die {
     width: 200px;
     border-style: solid;
     line-height: 200px;
+    background-color: white;
+    font-weight: bold;
 }
 
 .flex-container {
@@ -32,4 +55,31 @@ div.die {
 
 #button-flex-container {
     height: 50px;
+}
+
+#footer-container {
+    margin: 0px;
+    display: block;
+    background-color: lightgreen;
+}
+
+.flex-footer-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around; 
+    border: none;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#footer-name {
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer > div > div {
+    font-size: 18px;
 }
