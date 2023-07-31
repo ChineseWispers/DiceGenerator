@@ -7,16 +7,13 @@ h1 {
     display: block;
     padding: 8px;
     background-color: lightgreen;
-}
-
-.die, h2 {
-    text-align: center;
-    margin-top: 50px;
-}
-
-h1 {
     margin: 0;
     text-align: center;
+}
+
+.die {
+    text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
@@ -26,6 +23,7 @@ h2 {
     width: 400px;
     margin: auto;
     margin-top: 30px;
+    text-align: center;
 }
 
 div.die {
@@ -42,7 +40,6 @@ div.die {
     display: flex;
     flex-direction: row;
     width: 600px;
-    align-content: space-between;
     justify-content: space-around; 
     margin: auto;
     width: 50%;
@@ -55,22 +52,19 @@ div.die {
 
 #button-flex-container {
     height: 50px;
-}
-
-#footer-container {
-    margin: 0px;
-    display: block;
-    background-color: lightgreen;
+    margin-bottom: 140px;
 }
 
 .flex-footer-container {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    justify-content: space-around; 
+    flex-direction:column;
+    margin-top: auto;
+    display: block;
+    background-color: lightgreen;
     border: none;
     flex-wrap: wrap;
     width: 100%;
+    min-height: 100vh
 }
 
 #footer-name {
@@ -80,6 +74,7 @@ div.die {
     text-align: center;
 }
 
-footer > div > div {
+footer > div > a {
     font-size: 18px;
+    width: 30%;
 }
