@@ -3,7 +3,7 @@ function Roll(sides, id) {
 }
 
 function RollDice(sides, id) {
-    for (let frame = 1; frame <= 24; frame++) {
-        setTimeout(function(){Roll(sides, id);}, frame * 80)
+    for (let frame = 1; frame <= 20; frame++) {
+        setTimeout(function(){Roll(sides, id);}, frame * 60)
     }
 }
